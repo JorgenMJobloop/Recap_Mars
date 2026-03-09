@@ -4,6 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        // create a new object instance of a class
+        var dog = new Animal(new Dog(), "");
+        Console.WriteLine(dog.Species);
     }
 }
