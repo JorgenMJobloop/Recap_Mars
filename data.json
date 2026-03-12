@@ -1,0 +1,42 @@
+[
+    {
+        "Id": 1,
+        "GUID": "2d761de0-7e03-4bc8-9d67-7d90626a0f4d",
+        "Name": "Mouse",
+        "Manifacturer": "Razor",
+        "Price": 850,
+        "UnitsAvailable": 10
+    },
+    {
+        "Id": 2,
+        "GUID": "086ded4f-6114-42a2-b187-9590bd2811ed",
+        "Name": "Headset",
+        "Manifacturer": "Steelseries",
+        "Price": 500,
+        "UnitsAvailable": 8
+    },
+    {
+        "Id": 3,
+        "GUID": "13dd3909-0719-434c-919e-960c37ffb044",
+        "Name": "Keyboard",
+        "Manifacturer": "HyperX",
+        "Price": 450,
+        "UnitsAvailable": 20
+    },
+    {
+        "Id": 4,
+        "GUID": "508a3e78-26d8-40fc-a188-dfeb52d5d404",
+        "Name": "IPhone",
+        "Manifacturer": "Apple",
+        "Price": 10000,
+        "UnitsAvailable": 15
+    },
+    {
+        "Id": 5,
+        "GUID": "fb8121df-d81c-4227-b2a6-2c2f61e2ee23",
+        "Name": "Headset",
+        "Manifacturer": "Razor",
+        "Price": 1200,
+        "UnitsAvailable": 5
+    }
+]

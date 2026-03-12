@@ -13,12 +13,18 @@ public class Product : IEntity
     /// </summary>
     public string Name { get; set; } = string.Empty;
     /// <summary>
+    /// Product manifacturer
+    /// </summary>
+    public string Manifacturer { get; set; } = string.Empty;
+    /// <summary>
     /// A price property (price of each individual product)
     /// </summary>
     public double Price { get; set; }
 
+    public int UnitsAvailable { get; set; }
+
     public override string ToString()
     {
-        return $"Product: {Name}, Price: {Price:C}, GUID: {GUID}";
+        return $"Manifacturer: {Manifacturer}\nProduct: {Name}, Price: {Price:C}, GUID: {GUID} In stock: {UnitsAvailable}";
     }
 }

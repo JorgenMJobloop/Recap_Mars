@@ -11,7 +11,7 @@ public class Customer : IEntity
     /// <summary>
     /// Customer email, optional, can be empty if customer does not want to share their email.
     /// </summary>
-    public string Email { get; set; } = string.Empty;
+    public string Email { get; set; } = "N/A";
 
     public override string ToString()
     {
